@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+:root {
+  --Purple: hsl(259, 100%, 65%);
+  --Light-red: hsl(0, 100%, 67%);
+  --White: hsl(0, 0%, 100%);
+  --Off-white: hsl(0, 0%, 94%);
+  --Light-grey: hsl(0, 0%, 86%);
+  --Smokey-grey: hsl(0, 1%, 44%);
+  --Off-black: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--Light-grey);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  background: var(--White);
+  width: 750px;
+  padding: 50px;
+  border-radius: 20px;
+  border-bottom-right-radius: 40%;
+  position: relative;
+}
+
+.input {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+input {
+  font-size: 32px;
+  width: 150px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 0.5px solid var(--Light-grey);
+  outline: none;
+  letter-spacing: 2px;
+  caret-color: var(--Purple);
+}
+
+h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--Light-red);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: var(--Light-grey);
+}
+
+button {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: var(--Purple);
+  right: 50px;
+  margin-top: -32px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--Off-black);
+}
+
+input:focus {
+  border: 0.5px solid var(--Purple);
+}
+
+p.error {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--Light-red);
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.result h1 {
+  font-size: 60px;
+  font-style: italic;
+}
+
+.result span {
+  color: var(--Purple);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+  .input {
+    margin-bottom: 40px;
+  }
+  input {
+    font-size: 18px;
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .content {
+    background: var(--White);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom-right-radius: 30%;
+    position: relative;
+  }
+  .result h1 {
+    font-size: 45px;
+    font-style: italic;
+  }
+  p.error {
+    font-size: 10px;
+  }
+  button {
+    right: 40%;
+  }
+  .result {
+    margin-top: 40px;
+  }
+} 
+:root {
+  --Dark-gold: hsl(45, 100%, 50%); /* Updated color */
+  --Black: hsl(0, 0%, 0%); /* Updated color */
+  --Off-white: hsl(0, 0%, 10%); /* Updated color */
+  --Light-grey: hsl(0, 0%, 20%); /* Updated color */
+  --Smokey-grey: hsl(0, 0%, 30%); /* Updated color */
+  --Off-black: hsl(0, 0%, 5%); /* Updated color */
+}
+
+body {
+  background: var(--Off-black); /* Updated background */
+}
+
+.content {
+  background: var(--Black); /* Updated content background */
+  border: 1px solid var(--Dark-gold); /* Added border for luxurious feel */
+}
+
+h6 {
+  color: var(--Dark-gold); /* Updated text color */
+}
+
+button {
+  background: var(--Dark-gold); /* Updated button background */
+}
+
+button:hover {
+  background: var(--Light-grey); /* Updated hover color */
+}
+
+p.error {
+  color: var(--Dark-gold); /* Updated error text color */
+}
+
+.result span {
+  color: var(--Dark-gold); /* Updated result text color */
+}
+
+.attribution a {
+  color: var(--Dark-gold); /* Updated attribution link color */
+}
+
+:root {
+  --White: hsl(0, 0%, 100%); /* Added white color for text visibility */
+  --Light-gold: hsl(45, 100%, 80%); /* Added light gold color for text visibility */
+}
+
+h6 {
+  color: var(--White); /* Updated text color to white for visibility */
+}
+
+p.error {
+  color: var(--Light-gold); /* Updated error text color to light gold for visibility */
+}
+
+.result span {
+  color: var(--White); /* Updated result text color to white for visibility */
+}
+
+.attribution a {
+  color: var(--Light-gold); /* Updated attribution link color to light gold for visibility */
+}
+
+h6 {
+  color: var(--Dark-gold); /* Updated text color to dark gold */
+}
+
+button {
+  background: var(--Dark-gold); /* Button background remains dark gold */
+}
+
+button:hover {
+  background: var(--Light-grey); /* Updated hover color */
+}
+
+p.error {
+  color: var(--Dark-gold); /* Updated error text color to dark gold */
+}
+
+.result h1 {
+  color: var(--Dark-gold); /* Updated result heading color to dark gold */
+}
+
+.result span {
+  color: var(--Dark-gold); /* Updated result text color to dark gold */
+}
+
+.attribution {
+  color: var(--Dark-gold); /* Updated attribution text color to dark gold */
+}
+
+.attribution a {
+  color: var(--Dark-gold); /* Updated attribution link color to dark gold */
+}
